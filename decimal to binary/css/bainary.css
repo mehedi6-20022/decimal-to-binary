@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top, #051937, #1c6a97, #0fa2af, #00bf72, #a5cf4a);
+}
+.container {
+    height: 650px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 6px 8px 15px 1px rgba(0,0,0,0.42);
+    box-shadow: -6px -8px -15px 1px rgba(0,0,0,0.42);
+    background-color: #00bf72;
+    border-radius: 20px;
+}
+
+.container .convetar{
+    margin-top: 10%;
+}
+.container .convetar h1{
+    text-align: center;
+}
+.container .convetar .number, .result{
+    margin-top: 50px;
+}
+.container .convetar .number h4, .result h4{
+    text-align: start;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.container .convetar .number input{
+    width: 70%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 10px;
+    color: #111;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+   margin-top: 10px;
+   margin-left: 80px;
+}
+
+
+.container .convetar .result h3 {
+    width: 70%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 10px;
+    color: #111;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+   margin-top: 10px;
+   margin-left: 80px;
+   line-height: 60px;
+}
+.container .convetar .result span{
+    visibility: hidden;
+}
+
+
+.container .convetar button{
+    padding: 15px 80px;
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.8s ease;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 160px;
+    background-color: #0fa2af;
+    
+}
+
+.container .convetar  button:hover{
+    background-color: #a5cf4a;
+    color: #051937;
+    font-weight: bold;
+}
